@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>BatteryGuard</AssemblyName>
+    <RootNamespace>BatteryGuard</RootNamespace>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <StartupObject>BatteryGuard.Program</StartupObject>
+    <Version>1.0.0</Version>
+    <Product>Battery Guard</Product>
+    <Authors>M Hammad</Authors>
+    <Company>M Hammad</Company>
+    <Copyright>© M Hammad. All rights reserved.</Copyright>
+    <Description>Battery Guard - Developed by M Hammad</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="10.0.12" />
+  </ItemGroup>
+
+</Project>

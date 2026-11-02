@@ -1,0 +1,17 @@
+# Visual Studio and .NET build files
+.vs/
+**/bin/
+**/obj/
+**/publish/
+*.user
+*.suo
+TestResults/
+
+# Local build caches created by installer/build-installer.ps1
+.dotnet-cli-home/
+installer/.dotnet-cli-home/
+installer/.build-appdata/
+installer/.nuget-packages/
+
+# Keep release binaries out of source commits; GitHub Actions attaches them to Releases.
+artifacts/
